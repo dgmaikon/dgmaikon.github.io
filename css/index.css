@@ -44,15 +44,83 @@ a:hover {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
-    background-color: #9C3D54;
+    margin-right: 0;
     padding: 18px 20px;
     box-shadow: 5px 5px 0 #000;
-    margin-right: 0;
+    background-color: #f25a70;
     transition: 600ms cubic-bezier(0.58, 0, 0.45, 0.64);
 }
 
-#button:hover {
+.button:hover {
+    box-shadow: 0 0 10px 5px #640520;
+ }
+
+ .title-box {
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    width: 600px;
+    height: 190px;
+    background-color: #394043;
+    filter: drop-shadow(10px 10px 0px #000000);
+}
+
+ .headline{
+    margin: 5% 5% 3%;
+    text-align: center;
+    color: #f25a70;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px 0px #000000;
+ }
+
+ .title {
+    margin: 5% 5% 3%;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px 0px #000000;
+ }
+ 
+.download-box {
+    position: absolute;
+    left: 190px;
+    top: 435px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 18px 18px;
+    box-shadow: 5px 5px 0 #000;
+    background-color: #f25a70;
+    transition: 600ms cubic-bezier(0.58, 0, 0.45, 0.64);
+    cursor: pointer;
+ }
+
+ .contatos-box {
+    position: absolute;
+    left: 450px;
+    top: 435px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 18px 18px;
+    box-shadow: 5px 5px 0 #000;
+    background-color: #f25a70;
+    transition: 600ms cubic-bezier(0.58, 0, 0.45, 0.64);
+    cursor: pointer;
+ }
+
+ .download-box:hover {
+    box-shadow: 0 0 10px 5px #640520;
+ }
+
+ .contatos-box:hover {
     box-shadow: 0 0 10px 5px #640520;
  }
