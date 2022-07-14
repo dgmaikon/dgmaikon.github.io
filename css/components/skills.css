@@ -1,0 +1,50 @@
+.skills {
+    background-color: #f25a70;    
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    padding: 100px 300px;
+    border-bottom: 10px solid #7c5e99;
+}
+
+.title-skills {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.list-skills {
+   /*  width: 1403px; */
+    height: 480px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills h3 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 25px;
+    display: inline-flex;
+}
+
+.skills img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+.skills-box {
+    width: 500px;
+    height: 120px;
+}
+.skill-ux {
+    margin: 20px 0;
+}
+
+.skill-rest {
+    margin: 20px 0;
+}
